@@ -9,7 +9,7 @@ function imc () {
 
     if (nome !== '' && altura !== '' && peso !== '') {
 
-        const valorIMC = (peso/(altura**2)).toFixed(1);
+        const valorIMC = (peso/(altura**2)).toFixed(2);
         
         let classificacao = '';
 
